@@ -1,0 +1,62 @@
+Project: Event Registration and Attendance System using PHP/MySQLi
+
+About
+
+The Event Registration and Attendance System is a simple PHP/MySQLi project that can help an organization or business that needed an online or automated event registration and attendance system. This system has 2 sides of User Interface which is the admin side and the registrar's side. This system stores multiple upcoming events along with the event's schedule, venue, and details. The events registration and attendance will be automatically open for the registrar's access when the current date is equal to the event schedule. The admin must assign 1 or more registrar user to access the event to register and manage the attendance of the attendees of the event until the admin will close the registration and attendance of the event. The system generates also an attendance report for each event and this feature is ready to print.
+
+Features
+
+Admin Side
+
+Login Page
+The page where the admin user submits their system credentials to access the admin side of the system.
+Home Page
+The page where the admin user is being redirected by default after logging into the system.
+New Event Page
+The page where the admin user creates a new event.
+Event List Page
+The page where all the events are listed and navigate to edit, view, and delete an event.
+New Attendee Page
+The page where the admin user creates a new attendee.
+Attendee List Page
+The page where all the attendees are listed and navigate to edit, view, and delete an attendee.
+Attendance Page 
+The page where the attendance report per event is being displayed.
+New User Page
+The page where the admin creates a new user.
+User List Page
+The page where the system users are listed and navigate to edit, view, and delete users.
+
+
+Registrar Side
+Login Page
+The page where the registrar user submits their system credentials to access and manage the events attendees' registration and attendance.
+Events Page
+The page where the events assigned to the logged-in registrar.
+Event's Attendees List Page
+The page where the attendees' list is being displayed and managed by the registrar. This is the page where the registrar toggle the switch button on updating the attendees' attendance.
+Event Attendees Registration Modal
+The popup modal where the registrar submits the new event attendee's details.
+Attendee's Details Modal
+The popup modal where the attendee's details are listed.
+Registrar's Manage Account Page
+The page where the registrars manage his/her system credentials.
+
+The Event Registration and Attendance System was developed using HTML, PHP/MySQLi, CSS, JavaScript (jQuery/Ajax), and Bootstrap for the design. The source code is fully functional and easy to modify or enhance. Follow the instruction below to have an actual experience using this simple project.
+
+How to Run
+Download the source code and extract the zip file.
+Download or set up any local web server that runs PHP script.
+Open the web-server database and create a new database name it eras_db.
+Import the SQL file located in the database folder of the source code.
+Copy and paste the source code to the location where your local web server accessing your local projects. Example for XAMPP('C:\xampp\htdocs')
+Open a web browser and browse the project. E.g [http://localhost/event-registration-attendance-system] for the registrar's side and [http://localhost/event-registration-attendance-system/admin] for the admin side.
+Default Admin Access
+Email: admin@admin.com
+Password: admin123
+
+I hope this simple Event Registration and Attendance System will help you with what you are looking for, feel free to download and modify the source code.
+
+Explore more on this website for more source codes and tutorials.
+
+Enjoy!

@@ -1,3 +1,3 @@
 #!/bin/bash
-# Restart the Apache web server (assuming Apache is used)
-service apache2 restart
+echo "Executing tasks before installation"
+# Add any pre-installation tasks here
